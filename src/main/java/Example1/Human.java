@@ -1,3 +1,5 @@
+package Example1;
+
 public class Human {
     public String name;
     public int distanceRun;

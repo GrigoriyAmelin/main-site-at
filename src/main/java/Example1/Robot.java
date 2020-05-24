@@ -1,3 +1,5 @@
+package Example1;
+
 public class Robot {
     public String name;
     public int distanceRun;

@@ -1,3 +1,9 @@
+package Example1;
+
+import Example2.Participant;
+
+import javax.swing.text.ParagraphView;
+
 public class Cat {
     public String name;
     public int distanceRun;
