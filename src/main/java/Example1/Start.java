@@ -8,6 +8,10 @@ public class Start {
         Human human2 = new Human("Abdullah", 42, 1.2);
         Robot robot1 = new Robot("Verter", 100, 1.9);
         Robot robot2 = new Robot("Basya", 120, 2.1);
+        Tredmill tredmill1 = new Tredmill("TredmillOne", 30);
+        Tredmill tredmill2 = new Tredmill("TredmillTwo", 103);
+        Wall wall1 = new Wall("WallHouse", 3.1);
+        Wall wall2 = new Wall("WallKremlin", 2.05);
 
         cat1.run();
         cat1.jump();
@@ -23,6 +27,13 @@ public class Start {
         robot1.jump();
         robot2.run();
         robot2.jump();
+
+        wall1.wallInfo();
+        wall2.wallInfo();
+
+        tredmill1.tredmillInfo();
+        tredmill2.tredmillInfo();
+
         System.out.println("It's a wonderful world!!!");
     }
 

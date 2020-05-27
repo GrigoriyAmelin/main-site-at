@@ -1,6 +1,6 @@
 package Example1;
 
-public class Robot {
+public class Robot implements Actions {
     public String name;
     public int distanceRun;
     public double jumpHeight;

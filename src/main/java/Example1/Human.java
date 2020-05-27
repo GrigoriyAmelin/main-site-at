@@ -1,6 +1,6 @@
 package Example1;
 
-public class Human {
+public class Human implements Actions {
     public String name;
     public int distanceRun;
     public double jumpHeight;

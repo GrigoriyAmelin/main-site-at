@@ -1,10 +1,6 @@
 package Example1;
 
-import Example2.Participant;
-
-import javax.swing.text.ParagraphView;
-
-public class Cat {
+public class Cat implements Actions {
     public String name;
     public int distanceRun;
     public double jumpHeight;
@@ -15,7 +11,7 @@ public class Cat {
         this.jumpHeight = jumpHeight;
     }
 
-    public void run () {
+        public void run () {
         System.out.println("Cat " + name + " can run on " + distanceRun + " kilometers!");
     }
 
