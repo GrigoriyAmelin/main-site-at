@@ -1,6 +1,6 @@
 package Example1;
 
-public class Wall {
+public class Wall extends Obstacles {
     public String name;
     public double height;
 
@@ -9,12 +9,15 @@ public class Wall {
         this.height = height;
     }
 
-    public double getHeight() {
+    public String getName () {
+        return name;
+    }
+
+    public double getHeight () {
         return height;
     }
 
     public void wallInfo () {
-        System.out.println("Wall " + name + " height is " + height + " meters! You know!");
-        System.out.println();
+        System.out.println("Прямо здесь " + name + " высотой " + height + " м.! Очуметь - не встать!");
     }
 }

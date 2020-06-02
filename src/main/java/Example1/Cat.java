@@ -1,23 +1,18 @@
 package Example1;
 
-public class Cat implements Actions {
-    public String name;
-    public int distanceRun;
-    public double jumpHeight;
+public class Cat extends Participants implements Actions {
 
-    public Cat (String name, int distanceRun, double jumpHeight) {
+
+    public Cat(String type, String name, int distanceRun, double jumpHeight) {
+        this.type = type;
         this.name = name;
         this.distanceRun = distanceRun;
         this.jumpHeight = jumpHeight;
     }
 
-        public void run () {
-        System.out.println("Cat " + name + " can run on " + distanceRun + " kilometers!");
-    }
-
     public void jump () {
-        System.out.println("Cat " + name + " can jump on " + jumpHeight + " meters! You know!");
-        System.out.println();
     }
 
+    public void run () {
+    }
 }

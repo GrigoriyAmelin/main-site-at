@@ -1,6 +1,6 @@
 package Example1;
 
-public class Tredmill {
+public class Tredmill extends Obstacles {
     public String name;
     public int lenth;
 
@@ -9,12 +9,15 @@ public class Tredmill {
         this.lenth = lenth;
     }
 
-    public int getLenth () {
+    public String getName () {
+        return name;
+    }
+
+    public int getLenth( ) {
         return lenth;
     }
 
     public void tredmillInfo () {
-        System.out.println("Tredmill " + name + " lenth is " + lenth + " kilometers! You know!");
-        System.out.println();
+        System.out.println("Перед нами " + name + " длиной " + lenth + " км. Представь только!");
     }
 }

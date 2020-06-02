@@ -1,11 +1,9 @@
 package Example1;
 
-public class Robot implements Actions {
-    public String name;
-    public int distanceRun;
-    public double jumpHeight;
+public class Robot extends Participants implements Actions {
 
-    public Robot (String name, int distanceRun, double jumpHeight) {
+    public Robot (String type, String name, int distanceRun, double jumpHeight) {
+        this.type = type;
         this.name = name;
         this.distanceRun = distanceRun;
         this.jumpHeight = jumpHeight;
@@ -17,7 +15,6 @@ public class Robot implements Actions {
 
     public void jump () {
         System.out.println("Robot " + name + " can jump on " + jumpHeight + " meters! You know!");
-        System.out.println();
     }
 
 }
