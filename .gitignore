@@ -1,8 +1,4 @@
 # Project exclude paths
-<<<<<<< HEAD
 /target/
 .idea
 *.iml
-=======
-/target/
->>>>>>> Задача 1
