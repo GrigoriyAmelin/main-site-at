@@ -1,4 +1,4 @@
-package Example1;
+package ru.geekbrains.main.site.at;
 
 public class Human extends Participants implements Actions {
 
